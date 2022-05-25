@@ -3,7 +3,7 @@ package gusto.fatec.filesystem.controller;
 import java.io.IOException;
 
 public interface IArquivosController {
-    public void verificaDirTemp() throws IOException;
+    public boolean verificaDirTemp() throws IOException;
 
     public boolean verificaRegistro(String arquivo, int codigo) throws IOException;
 
